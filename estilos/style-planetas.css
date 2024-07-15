@@ -1,0 +1,61 @@
+.planetas-sec{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 70px 2%;
+}
+
+.planetas-sec-texto{
+    max-width: 37rem;
+}
+
+.planetas-sec-img{
+    width: 50vw;
+}
+
+.planetas-sec-texto h3{
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 5vh;
+}
+
+
+.planetas-sec-tabela td, th{
+    text-align: center;
+}
+
+.tabela-coluna1{
+    background-color: #529c8f1f;
+}
+
+.tabela-coluna2{
+    background-color: #02735e1f;
+}
+
+
+@media (min-width: 785px) {
+    .planetas-sec{
+        flex-direction: row;
+        padding: 0px 10%;
+    }
+
+    .planetas-sec-img{
+        width: 50%;
+    }
+
+    .planetas-sec-texto h2{
+        font-size: 1.5rem;
+    }
+
+    .planetas-sec-texto h3{
+        padding-bottom: 0;
+    }
+
+
+    
+    
+}
