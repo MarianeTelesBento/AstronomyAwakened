@@ -17,8 +17,8 @@
             <ul class="nav-menu-lista">
                 <li><a href="#home" class="nav-menu-item">Home</a></li>
                 <li><a href="#planetas" class="nav-menu-item">Planetas</a></li>
-                <li><a href="#" class="nav-menu-item">Estrelas</a></li>
-                <li><a href="#" class="nav-menu-item">Satélites</a></li>
+                <li><a href="#astronautas" class="nav-menu-item">Astronautas</a></li>
+                <li><a href="#Satélites" class="nav-menu-item">Satélites</a></li>
             </ul>
             <div class="nav-menu-bar">
                 <span class="bar"></span>
@@ -39,56 +39,60 @@
             </div>
         </section>
 
-        <section class="conteudo2">
+        <section class="conteudo2" id="planetas">
+            <div class="resumo-texto">
+                <h2>Nosso sistema solar</h2>
+                <p>Explore o Sistema Solar: dos escaldantes desertos de Mercúrio aos gelados ventos de Netuno, cada planeta oferece mistérios e maravilhas únicas. Clique para saber mais!</p>
+            </div>
             <div class="carrossel">
                 <a class="prev">
-                    <span>&#10094;</span>
-                    <span class="prev-text">Voltar</span>
+                        <span>&#10094;</span>
+                        <span class="prev-text">Voltar</span>
                 </a>
-                  <div>
-                    <div class="slides fade">
-                      <img src="imagens/planetas/mercurio.png" />
-                      <h2 class="title">MERCÚRIO</h2>
-                      <p class="content">O menor e mais próximo do Sol, com temperaturas extremas.</p>
-                    </div>
-                    <div class="slides fade">
-                        <img src="imagens/planetas/venus.jpg" />
-                        <h2 class="title">VÊNUS</h2>
-                        <p class="content">Similar à Terra em tamanho, tem uma atmosfera densa e temperaturas altas.</p>
-                      </div>
-                      <div class="slides fade">
-                        <img src="imagens/planetas/terra.png" />
-                        <h2 class="title">TERRA</h2>
-                        <p class="content">Único planeta conhecido com vida, possui atmosfera rica em oxigênio e vastos oceanos.
-                        </p>
-                      </div>
-                      <div class="slides fade">
-                        <img src="imagens/planetas/marte.jpg" />
-                        <h2 class="title">MARTE</h2>
-                        <p class="content">O "Planeta Vermelho", tem sinais de água no passado, e incriveis caracteristicas.</p>
-                      </div>
-                      <div class="slides fade">
-                        <img src="imagens/planetas/jupiter.jpg" />
-                        <h2 class="title">JUPITER</h2>
-                        <p class="content">Maior planeta, conta com a Grande Mancha Vermelha e um extenso sistema de luas.</p>
-                      </div>
-                      <div class="slides fade">
-                        <img src="imagens/planetas/saturno.png" />
-                        <h2 class="title">SATURNO</h2>
-                        <p class="content">Famoso por seus anéis de gelo e rochas, um gigante gasoso com várias luas.</p>
-                      </div>
-                      <div class="slides fade">
-                        <img src="imagens/planetas/urano.png" />
-                        <h2 class="title">URANO</h2>
-                        <p class="content">Gigante de gelo com uma inclinação extrema, composto de água, amônia e metano.</p>
-                      </div>
-                      <div class="slides fade">
-                        <img src="imagens/planetas/netuno.jpg" />
-                        <h2 class="title">NETUNO</h2>
-                        <p class="content">Distante e azul devido ao metano, possui ventos fortes e um sistema de anéis e luas.</p>
-                      </div>
-                  </div>
-                  <div class="footer">
+                <div>
+                        <div class="slides fade">
+                            <h2 class="title">MERCÚRIO</h2>
+                            <img src="imagens/planetas/mercurio.png"/>
+                            <p class="content">O menor e mais próximo do Sol, com temperaturas extremas.</p>
+                        </div>
+                        <div class="slides fade">
+                            <h2 class="title">VÊNUS</h2>
+                            <img src="imagens/planetas/venus.jpg"/>
+                            <p class="content">Similar à Terra em tamanho, tem uma atmosfera densa e temperaturas altas.</p>
+                        </div>
+                        <div class="slides fade">
+                            <h2 class="title">TERRA</h2>
+                            <img src="imagens/planetas/terra.png"/>
+                            <p class="content">Único planeta conhecido com vida, possui atmosfera rica em oxigênio e vastos oceanos.
+                            </p>
+                        </div>
+                        <div class="slides fade">
+                            <h2 class="title">MARTE</h2>
+                            <img src="imagens/planetas/marte.jpg"/>
+                            <p class="content">O "Planeta Vermelho", tem sinais de água no passado, e incriveis caracteristicas.</p>
+                        </div>
+                        <div class="slides fade">
+                            <h2 class="title">JUPITER</h2>
+                            <img src="imagens/planetas/jupiter.jpg"/>
+                            <p class="content">Maior planeta, conta com a Grande Mancha Vermelha e um extenso sistema de luas.</p>
+                        </div>
+                        <div class="slides fade">
+                            <h2 class="title">SATURNO</h2>
+                            <img src="imagens/planetas/saturno.png"/>
+                            <p class="content">Famoso por seus anéis de gelo e rochas, um gigante gasoso com várias luas.</p>
+                        </div>
+                        <div class="slides fade">
+                            <h2 class="title">URANO</h2>
+                            <img src="imagens/planetas/urano.png"/>
+                            <p class="content">Gigante de gelo com uma inclinação extrema, composto de água, amônia e metano.</p>
+                        </div>
+                        <div class="slides fade">
+                            <h2 class="title">NETUNO</h2>
+                            <img src="imagens/planetas/netuno.jpg"/>
+                            <p class="content">Distante e azul devido ao metano, possui ventos fortes e um sistema de anéis e luas.</p>
+                        </div>
+                </div>
+                <div class="footer">
                     <button class="btn-slide">&#10095;</button>
                     <div class="dot-box">
                       <span class="dot" ></span>
@@ -100,11 +104,13 @@
                       <span class="dot" ></span>
                       <span class="dot" ></span>
                     </div>
-                </div>
+            </div>
         </section>
 
         <section class="conteudo3">
-            <h2>Hall da fama</h2>
+            <div class="resumo-texto">
+                <h2>Hall da fama</h2>
+            </div>
             <div class="astronautas">
                 <div class="astro">
                     <img src="imagens/astro-1.jpg" alt="">
@@ -126,9 +132,11 @@
             <a href="paginas/pg-planetas.html">Clique aqui para ver mais informações</a>
         </section>
 
-        <section class="conteudo4" id="estrelas">
-            <h2>Galeria das estrelas</h2>
-            <p>Quer deslumbrar a beleza das estrelas, e descobrir informações sobre elas? clique no botão abaixo.</p>
+        <section class="conteudo4" id="Satélites">
+            <div class="resumo-texto">
+                <h2>Galeria dos satélites</h2>
+                <p>Quer deslumbrar a beleza das estrelas, e descobrir informações sobre elas? clique no botão abaixo.</p>
+            </div>
             <div class="galeria">
                 <img src="imagens/planetas/mercurio.png" alt="">
                 <img src="imagens/planetas/venus.jpg" alt="">

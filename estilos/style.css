@@ -54,7 +54,6 @@ img{
     justify-content: space-between;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.527);
-    transition: all 0.3s;
     padding: 18px 20px;
     height: 10vh;
 }
@@ -70,7 +69,7 @@ img{
 }
 
 .nav-logo-img{
-    height: 7vh;
+    height: 50px;
 }
 
 
@@ -134,7 +133,7 @@ img{
 }
 
 .home-text{
-    max-width: 37rem;
+    max-width: 35rem;
 }
 
 .home-text h4{
@@ -162,12 +161,20 @@ img{
     height: auto;
 }
 
-
+.resumo-texto{
+    max-width: 37rem;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
 
 .conteudo2{
     min-height: 100vh;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -221,7 +228,6 @@ img{
     width: 200px;
     text-align: center;
     font-size: 13px;
-
 }
   
 .slides img {
@@ -277,16 +283,19 @@ img{
 .conteudo3{
     min-height: 100vh;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .astronautas{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 50px;
     width: 100%;
-    padding: 50px;
 }
 
 .astro{
@@ -312,9 +321,8 @@ img{
 }
 
 .conteudo4{
-    min-height: 100vh;
+    min-height: 100vh; /*mudar para grid*/
     width: 100%;
-    padding: 100px 0;
     background-color: #02405969;
 }
 
@@ -323,26 +331,32 @@ img{
 }
 
 .galeria{
-    display: flex;
-    justify-content: center;
+    display: grid;
+
+   /* justify-content: center;
     align-items: center;
     gap: 10px;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
 }
 
 .galeria img{
-    width: 150px;
+    width: 200px;
     border-radius: 10px;
     height: auto;
 }
-
 
 
 @media (min-width: 785px) {
     *{
         text-align: left;
     }
+
+    main{
+        width: 100%;
+        padding: 0 10%;
+    }
     
+
     .nav{
         padding: 10px 4vw;
     }
@@ -379,7 +393,6 @@ img{
 
     .home {
         flex-direction: row;
-        padding: 0px 10%;
         height: 100vh;
     }
 
@@ -400,34 +413,53 @@ img{
         width: 50%;
     }
     
+    .conteudo2{
+        min-height: 100vh;
+        flex-direction: row;
+        gap: 50px;
+        font-size: 20px;
+    }
+
+    .slides img{
+        height: 40vh;
+    }
+
+    .content{
+        font-size: 16px;
+    }
 
 
+    .carrossel{
+        width: 50%;
+        font-size: 20px;
+        height: 80vh;
+    }
 
+    .btn-slide{
+        text-align: center ;
+    }
 
     .conteudo3{
-        margin-top: 100px;
-        width: 100%;
+        font-size: 20px;
     }
-    
+
     .astronautas{
         flex-direction: row;
+        justify-content: space-around;
     }
 
     .astro{
         width: 350px;
     }
 
-
-
-
-
     .conteudo4{
+        max-height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         text-align: center;
-        height: 80vh;
+        font-size: 20px;
     }
 
 
@@ -436,18 +468,11 @@ img{
         text-align: center;
     }
 
-    .galeria{
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        flex-wrap: wrap;
-
-    }
-    
 
     .galeria img{
-        width: 10%;
+        width: 300px;
     }
+    
 
 
     
