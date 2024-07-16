@@ -149,7 +149,7 @@ img{
 }
 
 .home-text p{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .home-img{
@@ -275,7 +275,7 @@ img{
   
 
 .conteudo3{
-    margin-top: 100px;
+    min-height: 100vh;
     width: 100%;
 }
 
@@ -291,7 +291,7 @@ img{
 
 .astro{
     background-color: #0341591f;
-    width: 250px;
+    width: 60vw;
     border-radius: 8px;
     padding: 25px;
     border: 1px #034159 solid;
