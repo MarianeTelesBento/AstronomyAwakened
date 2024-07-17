@@ -331,12 +331,11 @@ img{
 }
 
 .galeria{
-    display: grid;
-
-   /* justify-content: center;
+    display: flex;
+   justify-content: center;
     align-items: center;
     gap: 10px;
-    flex-wrap: wrap;*/
+    flex-wrap: wrap;
 }
 
 .galeria img{
