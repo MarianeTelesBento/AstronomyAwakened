@@ -39,6 +39,7 @@ body{
     background: radial-gradient(ellipse, #0b465c57, #04171e91) fixed, url(../imagens/fundo.jpg) fixed;
     background-size: cover;
     color: white;
+    scroll-behavior: smooth;
 }
 
 img{
@@ -95,9 +96,9 @@ img{
 
 .nav-menu-lista{
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     right: -100%;
-    top: 10vh;
+    top: 64px;
     width: 100%;
     height: 100%;
     display: flex;
@@ -178,6 +179,8 @@ img{
     justify-content: center;
     align-items: center;
 }
+
+
 
 .slides {
     gap: 8px;
@@ -321,7 +324,7 @@ img{
 }
 
 .conteudo4{
-    min-height: 100vh; /*mudar para grid*/
+    min-height: 100vh; 
     width: 100%;
     background-color: #02405969;
 }
@@ -332,7 +335,7 @@ img{
 
 .galeria{
     display: flex;
-   justify-content: center;
+    justify-content: center;
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
