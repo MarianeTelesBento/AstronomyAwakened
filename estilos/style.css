@@ -34,6 +34,12 @@
     text-align: center;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 
 body{
     background: radial-gradient(ellipse, #0b465c57, #04171e91) fixed, url(../imagens/fundo.jpg) fixed;
@@ -327,6 +333,7 @@ img{
     min-height: 100vh; 
     width: 100%;
     background-color: #02405969;
+    padding-bottom: 50px;
 }
 
 .conteudo4 h2, .conteudo4 p{
@@ -347,6 +354,39 @@ img{
     height: auto;
 }
 
+footer{
+    bottom: 0%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+    backdrop-filter: blur(10px);
+}
+
+.footer-pg{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links a{
+    color: #024159;
+    font: 500;
+    text-decoration: underline;
+}
+
+.redes-sociais a img{
+    width: 30px;
+}
+
+
 
 @media (min-width: 785px) {
     *{
@@ -355,13 +395,12 @@ img{
 
     main{
         width: 100%;
-        padding: 0 10%;
     }
-    
 
     .nav{
         padding: 10px 4vw;
         height: 8vh;
+        backdrop-filter: blur(10px);
     }
 
 
@@ -460,20 +499,55 @@ img{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         text-align: center;
         font-size: 20px;
     }
-
 
 
     .conteudo4 h2{
         text-align: center;
     }
 
-
-    .galeria img{
+    .galeria div img{
         width: 300px;
+    }
+
+    .galeria{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+
+
+
+    
+    .footer-pg{
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+    
+    .footer-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-links a{
+        color: #024159;
+        font: 500;
+        text-decoration: underline;
+    }
+    
+    .redes-sociais a img{
+        width: 30px;
     }
     
 
