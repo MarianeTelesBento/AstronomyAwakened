@@ -313,6 +313,7 @@ img{
     border-radius: 8px;
     padding: 25px;
     border: 1px #034159 solid;
+    margin-bottom: 50px;
 }
 
 .astro img, .astro img, .astro img{
@@ -328,6 +329,19 @@ img{
     font-weight: 500;
     margin: 10px 0 20px;
 }
+
+.botao-leia-mais{
+    text-align: center;
+    color: #0cf25d;
+    background-color: #0341598e;
+    border: #0cf25d 1px solid;
+    width: 200px;
+    padding: 10px;
+    border-radius: 80px;
+}
+
+
+
 
 .conteudo4{
     min-height: 100vh; 
@@ -346,6 +360,7 @@ img{
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .galeria img{
