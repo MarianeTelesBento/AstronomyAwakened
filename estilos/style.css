@@ -186,6 +186,10 @@ img{
     align-items: center;
 }
 
+#resumo-planeta{
+    padding-bottom: 30px;
+}
+
 
 
 .slides {
@@ -335,13 +339,10 @@ img{
     color: #0cf25d;
     background-color: #0341598e;
     border: #0cf25d 1px solid;
-    width: 200px;
+    width: 100px;
     padding: 10px;
-    border-radius: 80px;
+    border-radius: 20px;
 }
-
-
-
 
 .conteudo4{
     min-height: 100vh; 
@@ -369,6 +370,7 @@ img{
     height: auto;
 }
 
+
 footer{
     bottom: 0%;
     width: 100%;
@@ -378,6 +380,7 @@ footer{
 
 .footer-pg{
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -392,7 +395,7 @@ footer{
 }
 
 .footer-links a{
-    color: #024159;
+    color: #0f8ec0;
     font: 500;
     text-decoration: underline;
 }
@@ -476,6 +479,7 @@ footer{
         gap: 50px;
         font-size: 20px;
     }
+   
 
     .slides img{
         height: 40vh;
@@ -489,7 +493,6 @@ footer{
     .carrossel{
         width: 50%;
         font-size: 20px;
-        height: 80vh;
     }
 
     .btn-slide{
@@ -509,8 +512,17 @@ footer{
         width: 350px;
     }
 
+    .botao-leia-mais{
+        text-align: center;
+        color: #0cf25d;
+        background-color: #0341598e;
+        border: #0cf25d 1px solid;
+        width: 200px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
     .conteudo4{
-        max-height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -520,12 +532,16 @@ footer{
     }
 
 
-    .conteudo4 h2{
+    .conteudo4 h2, .conteudo4 p{
         text-align: center;
     }
 
     .galeria div img{
         width: 300px;
+    }
+
+    .galeria div h3{
+        text-align: center;
     }
 
     .galeria{
@@ -534,38 +550,22 @@ footer{
         align-items: center;
         justify-content: space-around;
     }
-
-
-
-
-
-    
-    .footer-pg{
-        height: 100%;
+ 
+    .redes-sociais{
         display: flex;
-        flex-direction: row;
         align-items: center;
-        justify-content: space-around;
-        padding: 10px 0;
+        justify-content: center;
+        gap: 25px;
     }
     
     .footer-links{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        gap: 100px;
         align-items: center;
+        justify-content: center;
     }
     
-    .footer-links a{
-        color: #024159;
-        font: 500;
-        text-decoration: underline;
-    }
-    
-    .redes-sociais a img{
-        width: 30px;
-    }
-    
-
 
     
 }
