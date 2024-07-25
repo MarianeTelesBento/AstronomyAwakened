@@ -1,41 +1,37 @@
-main{
+.home-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
 }
 
-.home-planeta{
-
+.home-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
 }
 
-.home-planeta-text{
-
-}
-
-.solar{
+.solar, .planetas-sec-img img{
     width: 100%;
+    border-radius: 20px;
 }
 
 .planetas-sec{
+    height: 100vh;
     width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 1rem;
-    padding: 70px 2%;
 }
 
 .planetas-sec-texto{
     max-width: 37rem;
-}
-
-.planetas-sec-img{
-    width: 50vw;
-}
-
-.planetas-sec-texto h3{
-    font-size: 14px;
-    font-weight: normal;
-    padding-bottom: 5vh;
 }
 
 
@@ -55,19 +51,29 @@ main{
 @media (min-width: 785px) {
     .planetas-sec{
         flex-direction: row;
+        justify-content: space-between;
         padding: 0px 10%;
     }
 
     .planetas-sec-img{
-        width: 50%;
+        width: 20vw;
     }
 
     .planetas-sec-texto h2{
-        font-size: 1.5rem;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    .planetas-sec-texto{
+        max-width: 37rem;
+        padding-right: 20%;
+        border-right: #70e2c6 1px solid;
+        box-shadow: #ffffff44 2px 0 0;
     }
 
-    .planetas-sec-texto h3{
-        padding-bottom: 0;
+    .planetas-sec-tabela{
+        width: auto;
+        height: 50vh;
     }
 
 
