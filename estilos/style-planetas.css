@@ -14,20 +14,25 @@
     gap: 40px;
 }
 
+.planetas-sec-img{
+    margin: 50px;
+}
+
 .solar, .planetas-sec-img img{
     width: 100%;
     border-radius: 20px;
 }
 
 .planetas-sec{
-    height: 100vh;
+    margin: 50px 0;
+    min-height: 100vh;
     width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .planetas-sec-texto{
@@ -37,6 +42,7 @@
 
 .planetas-sec-tabela td, th{
     text-align: center;
+    padding: 10px;
 }
 
 .tabela-coluna1{
@@ -75,8 +81,4 @@
         width: auto;
         height: 50vh;
     }
-
-
-    
-    
 }
