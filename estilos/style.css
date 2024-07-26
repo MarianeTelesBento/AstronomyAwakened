@@ -63,6 +63,7 @@ img{
     background-color: rgba(0, 0, 0, 0.527);
     padding: 18px 20px;
     height: 64px;
+    animation: troca-sombra infinite 2s ;
 }
 
 .nav-logo{

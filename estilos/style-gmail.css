@@ -97,10 +97,10 @@ form button[type="submit"]:hover {
         border-radius: 8px 0;
     }
 
-    .img-form {
+    .img-form{
         display: block;
         min-width: 320px; 
-        min-height: 40vh; 
+        min-height: 357px; 
         background-image: url(../imagens/pexels-taryn-elliott-4112363.jpg);
         background-position: center;
         background-size: cover;
