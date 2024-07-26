@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+}
+
+body {
+    background: radial-gradient(ellipse, #0b465c57, #04171e91) fixed, url(../imagens/fundo.jpg) fixed;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Alinha coluna por padrão */
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    background: rgba(255, 255, 255, 0.062);
+    backdrop-filter: blur(4px);
+    min-width: 320px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.img-form {
+    display: none;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+    text-shadow: #c0c0c079 1px 1px 5px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border: #4777e670 1px solid;
+    box-shadow: #4776E6 1px 1px 2px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.295);
+}
+
+form button {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0.4rem 0;
+    width: 100%;
+    background: linear-gradient(to left, #027a6c, #026654);
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    border: rgba(255, 255, 255, 0.199) 1px solid;
+}
+
+form button[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #027a6c, #026654);
+}
+
+@media (min-width: 785px) {
+    main {
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form{
+        border-radius: 8px 0;
+    }
+
+    .img-form {
+        display: block;
+        min-width: 320px; 
+        min-height: 40vh; 
+        background-image: url(../imagens/pexels-taryn-elliott-4112363.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 0 8px;
+    }
+}
