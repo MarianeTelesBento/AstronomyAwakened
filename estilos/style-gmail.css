@@ -65,6 +65,10 @@ input::placeholder{
     color: rgba(255, 255, 255, 0.295);
 }
 
+input:enabled{
+    color: white;
+}
+
 form button{
     text-align: center;
     margin-top: 2rem;
