@@ -14,15 +14,6 @@
     gap: 40px;
 }
 
-.planetas-sec-img{
-    margin: 50px;
-}
-
-.solar, .planetas-sec-img img{
-    width: 100%;
-    border-radius: 20px;
-}
-
 .planetas-sec{
     margin: 50px 0;
     min-height: 100vh;
@@ -35,10 +26,18 @@
     gap: 2rem;
 }
 
+.planetas-sec-img{
+    margin: 50px;
+}
+
+.solar, .planetas-sec-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+
 .planetas-sec-texto{
     max-width: 37rem;
 }
-
 
 .planetas-sec-tabela td, th{
     text-align: center;
@@ -54,7 +53,7 @@
 }
 
 
-@media (min-width: 785px) {
+@media (min-width: 785px){
     .planetas-sec{
         flex-direction: row;
         justify-content: space-between;
@@ -71,7 +70,6 @@
     }
     
     .planetas-sec-texto{
-        max-width: 37rem;
         padding-right: 20%;
         border-right: #70e2c6 1px solid;
         box-shadow: #ffffff44 2px 0 0;

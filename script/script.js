@@ -13,7 +13,6 @@ const obj_prev_button = document.querySelector('.prev')
 const obj_avanca_button = document.querySelector('.btn-slide')
 const array_click_dot = document.querySelectorAll('.dot')
 
-
 //chama funções -> hamburguinho
 obj_menu_botao.addEventListener('click', funMenufechar)
 
@@ -35,7 +34,6 @@ for (let i = 0; i < array_click_dot.length; i++) {
     clearInterval(slideInterval)
   })
 }
-
 
 //define funções -> hamburguinho
 function funMenufechar(){
