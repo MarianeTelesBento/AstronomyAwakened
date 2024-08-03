@@ -68,7 +68,7 @@
         flex-direction: row;
         justify-content: space-between;
         padding: 0px 10%;
-        min-width: none;
+        min-height: none;
     }
 
     .planetas-sec-img{
