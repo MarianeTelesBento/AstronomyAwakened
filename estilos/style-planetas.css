@@ -41,7 +41,7 @@
 
 .planetas-sec-tabela td, th{
     text-align: center;
-    padding: 10px;
+    padding: 1%;
 }
 
 .tabela-coluna1{
@@ -54,10 +54,21 @@
 
 
 @media (min-width: 785px){
+    .nav-menu-lista{
+        justify-content: right;
+        gap: 50px;
+    }
+    
+    .nav-menu-lista li:nth-child(1){
+        padding-right: 50px;
+        border-right: #0CF25D 1px solid;
+    }
+    
     .planetas-sec{
         flex-direction: row;
         justify-content: space-between;
         padding: 0px 10%;
+        min-width: none;
     }
 
     .planetas-sec-img{
