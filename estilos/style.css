@@ -344,6 +344,7 @@ img{
     min-height: 100vh; 
     width: 100%;
     background-color: #02405969;
+    padding: 20px;
     padding-bottom: 50px;
 }
 
@@ -355,7 +356,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
     margin-bottom: 50px;
 }
