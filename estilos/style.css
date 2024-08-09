@@ -135,6 +135,7 @@ img{
     justify-content: space-around;
     padding: 0 2%;
     padding-top: 90px;
+    scroll-behavior: smooth;
 }
 
 .home-text{
@@ -183,6 +184,7 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    scroll-behavior: smooth;
 }
 
 #resumo-planeta{
@@ -295,6 +297,7 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    scroll-behavior: smooth;
 }
 
 .astronautas{
@@ -349,6 +352,7 @@ img{
     background-color: #02405969;
     padding: 20px;
     padding-bottom: 50px;
+    scroll-behavior: smooth;
 }
 
 .conteudo4 h2, .conteudo4 p{
